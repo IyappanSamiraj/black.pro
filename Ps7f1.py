@@ -1,6 +1,7 @@
 n=int(input())
-if n>2:
-    if n%2==0:
-        print('0')
-    else:
-        print('1')
+i=2
+while(i<=n):
+    s=n-i
+    i=i*2
+print(s)
+        
